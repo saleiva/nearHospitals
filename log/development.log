@@ -1,0 +1,1684 @@
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 17:40:01 +0100
+
+NoMethodError (undefined method `map' for #<ActionDispatch::Routing::Mapper:0x00000101a7e458>):
+  config/routes.rb:2:in `block in <top (required)>'
+  config/routes.rb:1:in `<top (required)>'
+
+Rendered /Users/saleiva/.rvm/gems/ruby-1.9.2-p180@nearHospitals/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/saleiva/.rvm/gems/ruby-1.9.2-p180@nearHospitals/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (46.3ms)
+Rendered /Users/saleiva/.rvm/gems/ruby-1.9.2-p180@nearHospitals/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (74.4ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 17:40:29 +0100
+
+ActionController::RoutingError (uninitialized constant ApplitacionController):
+  app/controllers/search_controller.rb:1:in `<top (required)>'
+
+Rendered /Users/saleiva/.rvm/gems/ruby-1.9.2-p180@nearHospitals/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 17:40:44 +0100
+  Processing by SearchController#search as HTML
+Rendered search/search.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 5ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/bkg.png" for 127.0.0.1 at 2011-03-16 17:40:44 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/bkg.png"):
+  
+
+Rendered /Users/saleiva/.rvm/gems/ruby-1.9.2-p180@nearHospitals/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/stylesheets/bkg.png" for 127.0.0.1 at 2011-03-16 17:40:54 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/bkg.png"):
+  
+
+Rendered /Users/saleiva/.rvm/gems/ruby-1.9.2-p180@nearHospitals/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/stylesheets/bkg.png" for 127.0.0.1 at 2011-03-16 17:40:59 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/bkg.png"):
+  
+
+Rendered /Users/saleiva/.rvm/gems/ruby-1.9.2-p180@nearHospitals/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 17:41:16 +0100
+  Processing by SearchController#search as HTML
+Rendered search/search.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/bkg.png" for 127.0.0.1 at 2011-03-16 17:41:16 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/bkg.png"):
+  
+
+Rendered /Users/saleiva/.rvm/gems/ruby-1.9.2-p180@nearHospitals/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.9ms)
+
+
+Started GET "/stylesheets/images/bkg.png" for 127.0.0.1 at 2011-03-16 17:41:17 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/images/bkg.png"):
+  
+
+Rendered /Users/saleiva/.rvm/gems/ruby-1.9.2-p180@nearHospitals/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/stylesheets/images/bkg.png" for 127.0.0.1 at 2011-03-16 17:41:17 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/images/bkg.png"):
+  
+
+Rendered /Users/saleiva/.rvm/gems/ruby-1.9.2-p180@nearHospitals/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 17:41:17 +0100
+  Processing by SearchController#search as HTML
+Rendered search/search.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/images/bkg.png" for 127.0.0.1 at 2011-03-16 17:41:17 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/images/bkg.png"):
+  
+
+Rendered /Users/saleiva/.rvm/gems/ruby-1.9.2-p180@nearHospitals/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/stylesheets/images/bkg.png" for 127.0.0.1 at 2011-03-16 17:41:17 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/images/bkg.png"):
+  
+
+Rendered /Users/saleiva/.rvm/gems/ruby-1.9.2-p180@nearHospitals/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.5ms)
+
+
+Started GET "/stylesheets/images/bkg.png" for 127.0.0.1 at 2011-03-16 17:41:17 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/images/bkg.png"):
+  
+
+Rendered /Users/saleiva/.rvm/gems/ruby-1.9.2-p180@nearHospitals/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/stylesheets/images/bkg.png" for 127.0.0.1 at 2011-03-16 17:41:19 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/images/bkg.png"):
+  
+
+Rendered /Users/saleiva/.rvm/gems/ruby-1.9.2-p180@nearHospitals/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 17:41:27 +0100
+  Processing by SearchController#search as HTML
+Rendered search/search.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/images/bkg.png" for 127.0.0.1 at 2011-03-16 17:41:27 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/images/bkg.png"):
+  
+
+Rendered /Users/saleiva/.rvm/gems/ruby-1.9.2-p180@nearHospitals/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 17:41:48 +0100
+  Processing by SearchController#search as HTML
+Rendered search/search.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 6ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 17:49:33 +0100
+  Processing by SearchController#search as HTML
+Rendered search/search.html.erb within layouts/application (33.4ms)
+Completed   in 37ms
+
+ActionView::Template::Error (Missing partial shared/header with {:handlers=>[:erb, :rjs, :builder, :rhtml, :rxml], :formats=>[:html], :locale=>[:en, :en]} in view paths "/Users/saleiva/Works/workspace/nearHospitals/app/views"):
+    8: </head>
+    9: <body>
+    10: 
+    11: <%= render 'shared/header'%>
+    12: <%= yield %>
+    13: 
+    14: </body>
+  app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb___4203520779532667327_2172717960_107521968167943508'
+
+Rendered /Users/saleiva/.rvm/gems/ruby-1.9.2-p180@nearHospitals/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/saleiva/.rvm/gems/ruby-1.9.2-p180@nearHospitals/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.5ms)
+Rendered /Users/saleiva/.rvm/gems/ruby-1.9.2-p180@nearHospitals/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.1ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 17:50:25 +0100
+  Processing by SearchController#search as HTML
+Rendered search/search.html.erb within layouts/application (4.1ms)
+Completed   in 26ms
+
+ActionView::Template::Error (Missing partial ../shared/header with {:handlers=>[:erb, :rjs, :builder, :rhtml, :rxml], :formats=>[:html], :locale=>[:en, :en]} in view paths "/Users/saleiva/Works/workspace/nearHospitals/app/views"):
+    8: </head>
+    9: <body>
+    10: 
+    11: <%= render '../shared/header'%>
+    12: <%= yield %>
+    13: 
+    14: </body>
+  app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb___4203520779532667327_2160246600_107521968167943508'
+
+Rendered /Users/saleiva/.rvm/gems/ruby-1.9.2-p180@nearHospitals/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+Rendered /Users/saleiva/.rvm/gems/ruby-1.9.2-p180@nearHospitals/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (40.0ms)
+Rendered /Users/saleiva/.rvm/gems/ruby-1.9.2-p180@nearHospitals/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (46.7ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 17:50:29 +0100
+  Processing by SearchController#search as HTML
+Rendered search/search.html.erb within layouts/application (6.4ms)
+Completed   in 13ms
+
+ActionView::Template::Error (Missing partial shared/header with {:handlers=>[:erb, :rjs, :builder, :rhtml, :rxml], :formats=>[:html], :locale=>[:en, :en]} in view paths "/Users/saleiva/Works/workspace/nearHospitals/app/views"):
+    8: </head>
+    9: <body>
+    10: 
+    11: <%= render 'shared/header'%>
+    12: <%= yield %>
+    13: 
+    14: </body>
+  app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb___4203520779532667327_2173845940_107521968167943508'
+
+Rendered /Users/saleiva/.rvm/gems/ruby-1.9.2-p180@nearHospitals/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/saleiva/.rvm/gems/ruby-1.9.2-p180@nearHospitals/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.9ms)
+Rendered /Users/saleiva/.rvm/gems/ruby-1.9.2-p180@nearHospitals/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.6ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 17:51:38 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.9ms)
+Rendered search/search.html.erb within layouts/application (17.2ms)
+Completed 200 OK in 24ms (Views: 22.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 17:52:11 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.4ms)
+Rendered search/search.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 17:54:01 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.5ms)
+Rendered search/search.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 15ms (Views: 14.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 17:54:44 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 9ms (Views: 9.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 17:58:51 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.4ms)
+Rendered search/search.html.erb within layouts/application (13.7ms)
+Completed 200 OK in 32ms (Views: 31.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 17:58:52 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 17:59:26 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.4ms)
+Rendered search/search.html.erb within layouts/application (11.6ms)
+Completed 200 OK in 18ms (Views: 17.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 17:59:55 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 11ms (Views: 10.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 18:00:06 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 18:00:10 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 18ms (Views: 15.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 18:00:31 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.4ms)
+Rendered search/search.html.erb within layouts/application (50.3ms)
+Completed 200 OK in 54ms (Views: 53.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 18:00:39 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.6ms)
+Rendered search/search.html.erb within layouts/application (18.4ms)
+Completed 200 OK in 23ms (Views: 22.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 18:00:43 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 18ms (Views: 17.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 18:00:55 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.4ms)
+Rendered search/search.html.erb within layouts/application (60.8ms)
+Completed 200 OK in 65ms (Views: 64.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 18:01:00 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 18:01:05 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.2ms)
+Rendered search/search.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 18:02:37 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.4ms)
+Rendered search/search.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 18:03:08 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 16ms (Views: 15.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 18:03:14 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 18:03:21 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 18:03:28 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.4ms)
+Rendered search/search.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 18:03:35 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.4ms)
+Rendered search/search.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 13ms (Views: 12.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 18:03:56 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 7ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 18:04:09 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 11ms (Views: 10.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 18:05:40 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 6ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 18:06:00 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.4ms)
+Rendered search/search.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 12ms (Views: 10.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 18:06:32 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.6ms)
+Rendered search/search.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 18ms (Views: 16.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 18:06:36 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 18:06:41 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.4ms)
+Rendered search/search.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 14ms (Views: 13.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 18:06:59 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.6ms)
+Rendered search/search.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 18:10:04 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.2ms)
+Rendered search/search.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 6ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 18:10:15 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (9.2ms)
+Rendered search/search.html.erb within layouts/application (18.6ms)
+Completed 200 OK in 25ms (Views: 24.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 18:30:03 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.2ms)
+Rendered search/search.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 6ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 18:30:04 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 18:30:19 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.2ms)
+Rendered search/search.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 18:30:20 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.4ms)
+Rendered search/search.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 18:30:42 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 6ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 18:30:56 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.2ms)
+Rendered search/search.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 18:31:31 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.2ms)
+Rendered search/search.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 6ms (Views: 5.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 18:31:32 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.5ms)
+Rendered search/search.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 18:33:07 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 18:33:07 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 18:37:19 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 18:37:43 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 18:37:51 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 10ms (Views: 9.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 18:38:40 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.4ms)
+Rendered search/search.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 13ms (Views: 12.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 18:41:47 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.7ms)
+Rendered search/search.html.erb within layouts/application (19.8ms)
+Completed 200 OK in 26ms (Views: 25.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 18:41:59 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 15ms (Views: 9.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 18:42:19 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.4ms)
+Rendered search/search.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 18:42:28 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.4ms)
+Rendered search/search.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 18:42:42 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.2ms)
+Rendered search/search.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 7ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 18:43:00 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.2ms)
+Rendered search/search.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 15ms (Views: 14.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 18:44:28 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.6ms)
+Rendered search/search.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 14ms (Views: 13.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 18:44:34 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.5ms)
+Rendered search/search.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 18:49:03 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 8ms (Views: 7.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 18:53:04 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.5ms)
+Rendered search/search.html.erb within layouts/application (41.7ms)
+Completed 200 OK in 46ms (Views: 45.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 18:53:09 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.4ms)
+Rendered search/search.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 15ms (Views: 14.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 18:53:46 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (2.4ms)
+Rendered search/search.html.erb within layouts/application (10.8ms)
+Completed 200 OK in 19ms (Views: 17.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:00:47 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 7ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/greenButotnBkg.png" for 127.0.0.1 at 2011-03-16 19:00:47 +0100
+
+ActionController::RoutingError (No route matches "/images/greenButotnBkg.png"):
+  
+
+Rendered /Users/saleiva/.rvm/gems/ruby-1.9.2-p180@nearHospitals/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/images/greenButotnBkg.png" for 127.0.0.1 at 2011-03-16 19:00:48 +0100
+
+ActionController::RoutingError (No route matches "/images/greenButotnBkg.png"):
+  
+
+Rendered /Users/saleiva/.rvm/gems/ruby-1.9.2-p180@nearHospitals/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:01:06 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 8ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/greenButotnBkg.png" for 127.0.0.1 at 2011-03-16 19:01:06 +0100
+
+ActionController::RoutingError (No route matches "/images/greenButotnBkg.png"):
+  
+
+Rendered /Users/saleiva/.rvm/gems/ruby-1.9.2-p180@nearHospitals/gems/actionpack-3.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:01:43 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:01:44 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:02:18 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:02:37 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 16ms (Views: 15.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:02:39 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.2ms)
+Rendered search/search.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 8ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:02:47 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.2ms)
+Rendered search/search.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:03:02 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:03:03 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:03:03 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 14ms (Views: 13.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:03:03 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:03:04 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.4ms)
+Rendered search/search.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:03:24 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.2ms)
+Rendered search/search.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:03:25 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 6ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:03:35 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.6ms)
+Rendered search/search.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:03:41 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.4ms)
+Rendered search/search.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:03:47 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 24ms (Views: 23.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:03:58 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.4ms)
+Rendered search/search.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:04:03 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.8ms)
+Rendered search/search.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:04:07 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 7ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:05:04 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:05:52 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.4ms)
+Rendered search/search.html.erb within layouts/application (16.4ms)
+Completed 200 OK in 22ms (Views: 21.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:05:53 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.5ms)
+Rendered search/search.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:06:17 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.4ms)
+Rendered search/search.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:06:26 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.4ms)
+Rendered search/search.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:06:37 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:07:44 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 14ms (Views: 13.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:07:59 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.4ms)
+Rendered search/search.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:08:00 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:08:25 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 8ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:08:26 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.4ms)
+Rendered search/search.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:08:47 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 10ms (Views: 9.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:08:57 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.5ms)
+Rendered search/search.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 15ms (Views: 14.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:09:11 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:09:12 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 8ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:09:14 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.4ms)
+Rendered search/search.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:09:44 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.2ms)
+Rendered search/search.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:09:46 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.4ms)
+Rendered search/search.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:10:03 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 7ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:10:05 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:10:19 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 14ms (Views: 13.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:10:26 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.4ms)
+Rendered search/search.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 7ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:10:32 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:10:39 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:10:46 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.4ms)
+Rendered search/search.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 8ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:10:56 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:11:09 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 8ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:11:14 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.8ms)
+Rendered search/search.html.erb within layouts/application (20.2ms)
+Completed 200 OK in 23ms (Views: 23.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:11:35 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.2ms)
+Rendered search/search.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:11:36 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.4ms)
+Rendered search/search.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 8ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:12:22 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 10ms (Views: 8.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:12:48 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 12ms (Views: 11.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:13:17 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (70.5ms)
+Completed 200 OK in 74ms (Views: 73.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:13:24 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.2ms)
+Rendered search/search.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:13:39 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:13:53 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.5ms)
+Rendered search/search.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 16ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:13:57 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 7ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:14:09 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:14:22 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:14:38 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.5ms)
+Rendered search/search.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 10ms (Views: 9.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:14:45 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 7ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:15:00 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.4ms)
+Rendered search/search.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 14ms (Views: 13.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:15:08 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 17ms (Views: 16.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:15:27 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.2ms)
+Rendered search/search.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:15:36 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.5ms)
+Rendered search/search.html.erb within layouts/application (17.2ms)
+Completed 200 OK in 24ms (Views: 23.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:16:00 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.2ms)
+Rendered search/search.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:16:03 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:16:14 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.2ms)
+Rendered search/search.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:16:18 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.6ms)
+Rendered search/search.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:16:31 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (44.1ms)
+Completed 200 OK in 48ms (Views: 47.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:16:40 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.5ms)
+Rendered search/search.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:16:47 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.4ms)
+Rendered search/search.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 7ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:16:56 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:17:04 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 16ms (Views: 15.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:17:14 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 10ms (Views: 9.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:17:28 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:17:39 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.2ms)
+Rendered search/search.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 8ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:17:48 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:17:54 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.5ms)
+Rendered search/search.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:18:07 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.4ms)
+Rendered search/search.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 9ms (Views: 8.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:18:15 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.4ms)
+Rendered search/search.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:18:16 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.4ms)
+Rendered search/search.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:18:23 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.2ms)
+Rendered search/search.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 7ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:18:28 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:18:38 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 9ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:18:46 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (1.2ms)
+Rendered search/search.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 19ms (Views: 17.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:18:55 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (7.8ms)
+Rendered search/search.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 18ms (Views: 17.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:18:56 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 8ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:18:57 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.2ms)
+Rendered search/search.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 6ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:19:17 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (1.6ms)
+Rendered search/search.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 13ms (Views: 12.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:19:22 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:20:24 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:20:47 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (4.2ms)
+Rendered search/search.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:21:19 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.4ms)
+Rendered search/search.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:21:50 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 21ms (Views: 20.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:21:57 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 12ms (Views: 11.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:22:03 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:22:09 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:22:23 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 20ms (Views: 19.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:22:24 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.7ms)
+Rendered search/search.html.erb within layouts/application (35.7ms)
+Completed 200 OK in 40ms (Views: 39.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:22:39 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 7ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:22:42 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:22:49 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.5ms)
+Rendered search/search.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 13ms (Views: 12.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:23:05 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (1.3ms)
+Rendered search/search.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:23:19 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:24:54 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.5ms)
+Rendered search/search.html.erb within layouts/application (214.1ms)
+Completed 200 OK in 220ms (Views: 219.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:24:59 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.5ms)
+Rendered search/search.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:27:12 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.5ms)
+Rendered search/search.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 11ms (Views: 10.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:27:36 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:28:07 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.4ms)
+Rendered search/search.html.erb within layouts/application (60.9ms)
+Completed 200 OK in 65ms (Views: 64.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:28:31 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 11ms (Views: 10.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:29:10 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:29:25 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 15ms (Views: 14.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:31:19 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.4ms)
+Rendered search/search.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:32:54 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.7ms)
+Rendered search/search.html.erb within layouts/application (13.4ms)
+Completed 200 OK in 18ms (Views: 17.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:33:10 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:33:15 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.5ms)
+Rendered search/search.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 7ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:33:24 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.4ms)
+Rendered search/search.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:33:25 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:33:46 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 6ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:33:57 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.2ms)
+Rendered search/search.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:34:07 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:34:16 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:34:43 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 23ms (Views: 22.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:34:50 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.2ms)
+Rendered search/search.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:35:15 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.5ms)
+Rendered search/search.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:35:30 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:35:49 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.4ms)
+Rendered search/search.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 7ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:35:53 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 12ms (Views: 11.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:35:57 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 11ms (Views: 10.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:35:59 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:36:07 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:36:13 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.2ms)
+Rendered search/search.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 125ms (Views: 125.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:36:18 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 7ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:36:30 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.2ms)
+Rendered search/search.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:36:39 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (1.0ms)
+Rendered search/search.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:36:46 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.4ms)
+Rendered search/search.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:37:07 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:37:16 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 6ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:37:20 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.7ms)
+Rendered search/search.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:37:29 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.5ms)
+Rendered search/search.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:37:35 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:38:03 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:38:11 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/search.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:38:15 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.5ms)
+Rendered search/search.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:38:23 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.5ms)
+Rendered search/search.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 15ms (Views: 11.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:38:30 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.2ms)
+Rendered search/search.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:40:29 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.2ms)
+Rendered search/search.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:40:36 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.7ms)
+Rendered search/search.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2011-03-16 19:41:27 +0100
+  Processing by SearchController#search as HTML
+Rendered shared/_header.html.erb (0.4ms)
+Rendered search/search.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 14ms (Views: 13.5ms | ActiveRecord: 0.0ms)
