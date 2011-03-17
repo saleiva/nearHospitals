@@ -2850,3 +2850,24 @@ Started GET "/" for 192.168.1.35 at 2011-03-17 23:32:21 +0100
 Rendered shared/_header.html.erb (0.2ms)
 Rendered search/index.html.erb within layouts/application (6.1ms)
 Completed 200 OK in 177ms (Views: 8.7ms)
+
+
+Started GET "/search" for 192.168.1.35 at 2011-03-17 23:35:25 +0100
+  Processing by SearchController#index as HTML
+Rendered shared/_header.html.erb (0.2ms)
+Rendered search/index.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 224ms (Views: 9.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-17 23:36:41 +0100
+  Processing by SearchController#index as HTML
+Rendered shared/_header.html.erb (0.2ms)
+Rendered search/index.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 230ms (Views: 9.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-17 23:36:53 +0100
+  Processing by SearchController#index as HTML
+Rendered shared/_header.html.erb (0.2ms)
+Rendered search/index.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 102ms (Views: 8.5ms)

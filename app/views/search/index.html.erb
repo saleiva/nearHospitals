@@ -45,7 +45,6 @@
         request = {origin:actual_position, destination:hospital_position, travelMode: google.maps.DirectionsTravelMode.DRIVING};
 
         directionsService.route(request, function(response, status) {
-          console.log(response);
           if (status == google.maps.DirectionsStatus.OK) {
             var steps = response.routes[0].legs[0].steps;
             var path = '';
@@ -54,7 +53,6 @@
             }
             path = path.substr(0,path.length-2);
             
-            //http://maps.google.com/maps?saddr=London+UK&daddr=Birmingham+UK
             
             var start_address = response.routes[0].legs[0].start_address.replace( / /g,'+');
             var end_address = response.routes[0].legs[0].end_address.replace( / /g,'+');
