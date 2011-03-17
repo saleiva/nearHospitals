@@ -50,9 +50,9 @@ class Scraper
 
       puts ''
       puts 'Scrapping hospitals:'
-      hospital_links.each do |hospital_link|
+      hospital_links.each_with_index do |hospital_link, index|
         puts ''
-        puts "Scraping #{hospital_link[:name]}..."
+        puts "Scraping #{hospital_link[:name]} (#{index + 1}/#{hospital_links.count})..."
         uri = "#{URL}/#{hospital_link[:link]}"
 
         doc = Nokogiri::HTML(open(URI.escape(uri)))
@@ -76,12 +76,7 @@ class Scraper
         javascript = doc.css('html head script').text
         latlong_regexp = /var cX = (-?\d+\.\d+);var cY = (-?\d+\.\d+);/
         latitude, longitude = *[javascript[latlong_regexp, 1], javascript[latlong_regexp, 2]]
-
-        # puts "name: #{name}"
-        # puts "complete_address: #{complete_address}"
-        # puts "emergency_contact: #{emergency_contact}"
-        # puts "hospital_website: #{hospital_website}"
-        # puts "lat,long: #{latitude},#{longitude}"
+        latitude, longitude = *georeference_place(complete_address) if latitude.blank? && latitude.blank?
 
         puts '... done!'
 
@@ -127,6 +122,28 @@ class Scraper
       near_hospitals_table
     end
     private :create_schema
+
+    def georeference_place(address)
+      puts '****************************'
+      puts "Georeferencing #{address}..."
+      require 'net/http'
+      # Georeference that address, getting a latitude and a longitude
+      url = URI.parse("http://maps.google.com/maps/api/geocode/json?address=#{CGI.escape(address)}&sensor=false")
+      req = Net::HTTP::Get.new(url.request_uri)
+      res = Net::HTTP.start(url.host, url.port){ |http| http.request(req) }
+      json_googlemaps = JSON.parse(res.body)
+      lat = nil
+      lon = nil
+      begin
+        lon = json_googlemaps['results'][0]['geometry']['location']['lng']
+        lat = json_googlemaps['results'][0]['geometry']['location']['lat']
+      rescue
+      end
+      puts '... done!'
+      puts '****************************'
+      [lat, lon]
+    end
+    private :georeference_place
 
   end
 
