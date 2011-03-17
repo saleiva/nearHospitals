@@ -8,14 +8,15 @@
 
   <div class="box">
     <h3 class="hospitalName"><%= hospital[:name] %></h3>
-    <p class="distance">760m / 3 mins en coche</p>
-    <!-- <div id="map_canvas1"></div> -->
+    <p class="distance">- / -</p>
+    <a target="_blank" href="#">
     <img id="hospital_<%= hospital[:cartodb_id] %>" class="map" src="http://maps.google.com/maps/api/staticmap?center=<%= hospital[:address] %>&zoom=8&size=240x150&sensor=false" />
-    <a class="phoneButton" href="#"><span class="phone"><%= hospital[:emergency_contact] %><span></a>
+    </a>
+    <a class="phoneButton" href="tel:<%= hospital[:emergency_contact] %>"><span class="phone"><%= hospital[:emergency_contact] %><span></a>
     <div class="address">
       <%=  %>
       <p><%= hospital[:street] %>,</br>
-      <%= "#{hospital[:postal_code]}, #{hospital[:city]}, #{hospital[:region]}" %></br>
+      <%= "#{hospital[:postal_code]}, #{hospital[:city]}, #{hospital[:region]}" %><br/>
       Hospital regional</p>
     </div>
   </div>
@@ -40,20 +41,29 @@
 
       $.each(hospitals, function(index, hospital){
         hospital_position = new google.maps.LatLng(hospital['latitude'], hospital['longitude']);
-
+        
         request = {origin:actual_position, destination:hospital_position, travelMode: google.maps.DirectionsTravelMode.DRIVING};
 
         directionsService.route(request, function(response, status) {
+          console.log(response);
           if (status == google.maps.DirectionsStatus.OK) {
             var steps = response.routes[0].legs[0].steps;
-            console.log(steps);
             var path = '';
             for (var i=0; i<steps.length; i++) {
               path += steps[i].path[0].lat().toFixed(4) + "," + steps[i].path[0].lng().toFixed(4) + '|';
             }
             path = path.substr(0,path.length-2);
-            console.debug($('#hospital_'+hospital['cartodb_id']));
-            $('#hospital_'+hospital['cartodb_id']).attr('src',"http://maps.google.com/maps/api/staticmap?path=color:0xff0000ff|weight:5|"+path+"&size=240x150&sensor=false");
+            
+            //http://maps.google.com/maps?saddr=London+UK&daddr=Birmingham+UK
+            
+            var start_address = response.routes[0].legs[0].start_address.replace( / /g,'+');
+            var end_address = response.routes[0].legs[0].end_address.replace( / /g,'+');
+            
+            $('#hospital_'+hospital['cartodb_id']).parent().attr('href','http://maps.google.com/maps?saddr='+start_address+"&daddr="+end_address);
+            $('#hospital_'+hospital['cartodb_id']).parent().parent().children('p.distance').text(response.routes[0].legs[0].duration.text + ' / ' + response.routes[0].legs[0].distance.text);
+            $('#hospital_'+hospital['cartodb_id']).attr('src',"http://maps.google.com/maps/api/staticmap?path=color:0xff3300ff|weight:3|"+path+"&size=240x150"+ 
+            "&markers=color:blue|"+actual_position.lat()+","+actual_position.lng()+"&markers=color:green|label:H|"+
+            response.Gf.destination.lat()+","+response.Gf.destination.lng()+"&sensor=false");
           }
         });
       });
