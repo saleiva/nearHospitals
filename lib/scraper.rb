@@ -82,6 +82,10 @@ class Scraper
 
         hospitals << {
           :name              => name,
+          :street            => address,
+          :city              => city,
+          :region            => region,
+          :postal_code       => postal_code,
           :address           => complete_address,
           :emergency_contact => emergency_contact,
           :website           => hospital_website,
@@ -115,6 +119,10 @@ class Scraper
       end
 
       near_hospitals_table = CartoDB::Connection.create_table "near_hospitals_#{Rails.env}", [
+                                                                {:name => 'street',            :type => 'string'},
+                                                                {:name => 'city',              :type => 'string'},
+                                                                {:name => 'region',            :type => 'string'},
+                                                                {:name => 'postal_code',       :type => 'string'},
                                                                 {:name => 'address',           :type => 'string'},
                                                                 {:name => 'emergency_contact', :type => 'string'},
                                                                 {:name => 'website',           :type => 'string'}

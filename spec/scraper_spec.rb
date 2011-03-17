@@ -27,6 +27,10 @@ describe 'Al Hospital scraper' do
       :description       => nil,
       :latitude          => 36.861999,
       :longitude         => -2.440701,
+      :street            => 'Paraje Torrecárdenas s/n',
+      :city              => 'Almería',
+      :region            => 'Almería',
+      :postal_code       => '04099',
       :address           => 'Paraje Torrecárdenas s/n, Almería, Almería, 04009',
       :emergency_contact => "902 50 50 61",
       :website           => 'http://www.juntadeandalucia.es/servicioandaluzdesalud/htorrecardenas'
