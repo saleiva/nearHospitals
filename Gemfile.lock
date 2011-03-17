@@ -1,11 +1,9 @@
-<<<<<<< HEAD
-=======
-GIT
-  remote: git@github.com:Vizzuality/cartodb-rb-client.git
-  revision: bb379e3f5e47a67bbd20499246941d401e11c93b
+PATH
+  remote: /Users/fer/Sources/cartodb-rb-client
   specs:
     cartodb-rb-client (0.0.1)
-      json (= 1.5.1)
+      activesupport (= 3.0.5)
+      i18n (= 0.5.0)
       mime-types (= 1.16)
       omniauth (= 0.1.6)
       rails_warden (= 0.5.2)
@@ -62,8 +60,8 @@ GEM
       addressable (~> 2.2.4)
       multipart-post (~> 1.1.0)
       rack (>= 1.1.0, < 2)
+    htmlentities (4.2.4)
     i18n (0.5.0)
-    json (1.5.1)
     linecache19 (0.5.11)
       ruby_core_source (>= 0.1.4)
 >>>>>>> Adds scraper files and specs
@@ -163,6 +161,11 @@ GEM
     rspec-expectations (2.5.0)
       diff-lcs (~> 1.1.2)
     rspec-mocks (2.5.0)
+    rspec-rails (2.5.0)
+      actionpack (~> 3.0)
+      activesupport (~> 3.0)
+      railties (~> 3.0)
+      rspec (~> 2.5.0)
     ruby-debug-base19 (0.11.24)
       columnize (>= 0.3.1)
       linecache19 (>= 0.5.11)
@@ -198,8 +201,10 @@ DEPENDENCIES
 =======
   bundler (~> 1.0.0)
   cartodb-rb-client!
+  htmlentities
   nokogiri
   rails (= 3.0.5)
   rspec
+  rspec-rails
   ruby-debug19
 >>>>>>> Adds scraper files and specs
