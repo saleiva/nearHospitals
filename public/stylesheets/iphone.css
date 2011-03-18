@@ -19,3 +19,7 @@ div.box img.map{float:left; margin: 10px 0 1px 0;}
 div.box a.phoneButton{color: #333333; font-weight: bold; font-size: 23px; text-decoration: none; background: transparent url('/images/phoneBtnBkg.png') no-repeat scroll top right;  display: block; float: left; height: 49px; padding-right: 35px; margin: 11px 0 0 0;}
 div.box a.phoneButton span.phone{background: white url('/images/phoneBtnBkg.png') no-repeat; display: block; line-height: 49px; padding: 0 0 0 76px; }
 div.box div.address{float:left; font-size: 13px; color: #666666; margin: 11px 0 0 0; line-height: 15px;}
+
+div#footer{margin:20px 0 0 0; width:100%; text-align:center;}
+div#footer p{font-size:11px; color: #46000C; text-shadow: 0px 1px 0px #BB0226;}
+div#footer p a,div#footer p a:visited{color: #46000C; text-decoration:underline;}

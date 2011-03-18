@@ -2871,3 +2871,218 @@ Started GET "/" for 127.0.0.1 at 2011-03-17 23:36:53 +0100
 Rendered shared/_header.html.erb (0.2ms)
 Rendered search/index.html.erb within layouts/application (5.9ms)
 Completed 200 OK in 102ms (Views: 8.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 12:53:51 +0100
+  Processing by SearchController#index as HTML
+Rendered shared/_header.html.erb (0.5ms)
+Rendered search/index.html.erb within layouts/application (21.1ms)
+Completed 200 OK in 202ms (Views: 25.0ms)
+
+
+Started GET "/" for 192.168.1.153 at 2011-03-18 12:55:12 +0100
+  Processing by SearchController#index as HTML
+Rendered shared/_header.html.erb (0.2ms)
+Rendered search/index.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 181ms (Views: 10.3ms)
+
+
+Started GET "/" for 192.168.1.137 at 2011-03-18 12:57:37 +0100
+  Processing by SearchController#index as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/index.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 115ms (Views: 9.9ms)
+
+
+Started GET "/" for 192.168.1.143 at 2011-03-18 12:57:39 +0100
+  Processing by SearchController#index as HTML
+Rendered shared/_header.html.erb (0.2ms)
+Rendered search/index.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 182ms (Views: 9.8ms)
+
+
+Started GET "/" for 192.168.1.133 at 2011-03-18 13:00:03 +0100
+  Processing by SearchController#index as HTML
+Rendered shared/_header.html.erb (0.2ms)
+Rendered search/index.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 181ms (Views: 9.7ms)
+
+
+Started GET "/" for 192.168.1.133 at 2011-03-18 13:01:20 +0100
+  Processing by SearchController#index as HTML
+Rendered shared/_header.html.erb (0.2ms)
+Rendered search/index.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 117ms (Views: 9.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 13:03:15 +0100
+  Processing by SearchController#index as HTML
+Rendered shared/_header.html.erb (0.2ms)
+Rendered search/index.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 192ms (Views: 10.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 13:03:26 +0100
+  Processing by SearchController#index as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered search/index.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 186ms (Views: 9.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 13:10:26 +0100
+  Processing by SearchController#index as HTML
+Rendered shared/_header.html.erb (0.4ms)
+Rendered search/index.html.erb within layouts/application (38.2ms)
+Completed 200 OK in 247ms (Views: 47.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 13:12:17 +0100
+  Processing by SearchController#index as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered shared/_footer.html.erb (0.2ms)
+Rendered search/index.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 163ms (Views: 12.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 13:12:34 +0100
+  Processing by SearchController#index as HTML
+Rendered shared/_header.html.erb (0.2ms)
+Rendered shared/_footer.html.erb (0.3ms)
+Rendered search/index.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 198ms (Views: 11.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 13:12:52 +0100
+  Processing by SearchController#index as HTML
+Rendered shared/_header.html.erb (0.2ms)
+Rendered shared/_footer.html.erb (0.2ms)
+Rendered search/index.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 189ms (Views: 11.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 13:13:10 +0100
+  Processing by SearchController#index as HTML
+Rendered shared/_header.html.erb (0.2ms)
+Rendered shared/_footer.html.erb (0.2ms)
+Rendered search/index.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 125ms (Views: 10.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 13:13:18 +0100
+  Processing by SearchController#index as HTML
+Rendered shared/_header.html.erb (0.2ms)
+Rendered shared/_footer.html.erb (0.2ms)
+Rendered search/index.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 189ms (Views: 11.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 13:15:00 +0100
+  Processing by SearchController#index as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered shared/_footer.html.erb (0.2ms)
+Rendered search/index.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 314ms (Views: 38.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 13:15:22 +0100
+  Processing by SearchController#index as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered shared/_footer.html.erb (0.3ms)
+Rendered search/index.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 234ms (Views: 12.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 13:16:20 +0100
+  Processing by SearchController#index as HTML
+Rendered shared/_footer.html.erb (0.2ms)
+Rendered shared/_header.html.erb (0.2ms)
+Rendered search/index.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 265ms (Views: 11.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 13:16:50 +0100
+  Processing by SearchController#index as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered shared/_footer.html.erb (0.2ms)
+Rendered search/index.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 292ms (Views: 12.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 13:17:20 +0100
+  Processing by SearchController#index as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered shared/_footer.html.erb (0.2ms)
+Rendered search/index.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 291ms (Views: 12.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 13:17:57 +0100
+  Processing by SearchController#index as HTML
+Rendered shared/_header.html.erb (0.4ms)
+Rendered shared/_footer.html.erb (0.2ms)
+Rendered search/index.html.erb within layouts/application (115.1ms)
+Completed 200 OK in 311ms (Views: 119.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 13:18:22 +0100
+  Processing by SearchController#index as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered shared/_footer.html.erb (0.2ms)
+Rendered search/index.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 297ms (Views: 11.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 13:19:30 +0100
+  Processing by SearchController#index as HTML
+Rendered shared/_header.html.erb (0.2ms)
+Rendered shared/_footer.html.erb (0.2ms)
+Rendered search/index.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 350ms (Views: 23.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 13:20:04 +0100
+  Processing by SearchController#index as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered shared/_footer.html.erb (0.2ms)
+Rendered search/index.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 180ms (Views: 24.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 13:20:17 +0100
+  Processing by SearchController#index as HTML
+Rendered shared/_header.html.erb (0.2ms)
+Rendered shared/_footer.html.erb (0.2ms)
+Rendered search/index.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 321ms (Views: 11.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 13:20:30 +0100
+  Processing by SearchController#index as HTML
+Rendered shared/_header.html.erb (0.2ms)
+Rendered shared/_footer.html.erb (0.2ms)
+Rendered search/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 266ms (Views: 11.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 13:21:40 +0100
+  Processing by SearchController#index as HTML
+Rendered shared/_header.html.erb (0.4ms)
+Rendered shared/_footer.html.erb (0.2ms)
+Rendered search/index.html.erb within layouts/application (42.8ms)
+Completed 200 OK in 302ms (Views: 86.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 13:22:06 +0100
+  Processing by SearchController#index as HTML
+Rendered shared/_header.html.erb (0.3ms)
+Rendered shared/_footer.html.erb (0.3ms)
+Rendered search/index.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 310ms (Views: 13.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-18 13:22:29 +0100
+  Processing by SearchController#index as HTML
+Rendered shared/_header.html.erb (0.2ms)
+Rendered shared/_footer.html.erb (0.2ms)
+Rendered search/index.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 283ms (Views: 11.2ms)
