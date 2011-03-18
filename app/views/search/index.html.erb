@@ -1,59 +1,21 @@
-
+  <script type="text/javascript" charset="utf-8">
+    var hospitals;
+  </script>
+  
 <div class="content">
-  <div class="box">
-    <a class="greenButton" href="#"><span>Busca hospitales cerca de tí</span></a>
+  
+  <span class="error">
+    <p>¡No sabemos donde estás!</p>
+    <p class="reload">Recarga y comparte tu localización ;)</p>
+  </span>
+  
+  <span class="loader">
+    <p>Obteniendo tu posición...</p>
+  </span>
+  
+  <div class="box" id="box">
+    <a class="greenButton" href="javascript:void refreshPosition()"><span>Busca hospitales cerca de tí</span></a>
   </div>
 </div>
 
-<script type="text/javascript">
-  var directionsService = new google.maps.DirectionsService();
-  var hospital_position;
-  var actual_position;
-  var request;
-
-  window.onload = function(){
-    if(navigator.geolocation){
-      navigator.geolocation.getCurrentPosition(handleGetCurrentPosition, handleGetCurrentPositionError);
-    }
-
-    function handleGetCurrentPosition(location){
-      actual_position = new google.maps.LatLng(location.coords.latitude, location.coords.longitude);
-
-      $.get('/', {'lat': location.coords.latitude, 'lon': location.coords.longitude}, function(hospitals_html){
-        $('div.content').append(hospitals_html);
-
-        $.each(hospitals, function(index, hospital){
-
-          hospital_position = new google.maps.LatLng(hospital['latitude'], hospital['longitude']);
-
-          request = {origin:actual_position, destination:hospital_position, travelMode: google.maps.DirectionsTravelMode.DRIVING};
-
-          directionsService.route(request, function(response, status) {
-            if (status == google.maps.DirectionsStatus.OK) {
-              var steps = response.routes[0].legs[0].steps;
-              var path = '';
-              for (var i=0; i<steps.length; i++) {
-                path += steps[i].path[0].lat().toFixed(4) + "," + steps[i].path[0].lng().toFixed(4) + '|';
-              }
-              path = path.substr(0,path.length-2);
-
-
-              var start_address = response.routes[0].legs[0].start_address.replace( / /g,'+');
-              var end_address = response.routes[0].legs[0].end_address.replace( / /g,'+');
-
-              $('#hospital_'+hospital['cartodb_id']).parent().attr('href','http://maps.google.com/maps?saddr='+start_address+"&daddr="+end_address);
-              $('#hospital_'+hospital['cartodb_id']).parent().parent().children('p.distance').text(response.routes[0].legs[0].duration.text + ' / ' + response.routes[0].legs[0].distance.text);
-              $('#hospital_'+hospital['cartodb_id']).attr('src',"http://maps.google.com/maps/api/staticmap?path=color:0xff3300ff|weight:3|"+path+"&size=240x150"+
-              "&markers=color:blue|"+actual_position.lat()+","+actual_position.lng()+"&markers=color:green|label:H|"+
-              response.Gf.destination.lat()+","+response.Gf.destination.lng()+"&sensor=false");
-            }
-          });
-        });
-      });
-    }
-
-    function handleGetCurrentPositionError(location){
-      alert('error');
-    }
-  }
-</script>
+<script type="text/javascript" src="/javascripts/application.js"></script>
