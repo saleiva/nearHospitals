@@ -79,7 +79,6 @@
         	    bounds.extend(path[0]);
         	    bounds.extend(path[path.length-1]);
         	    map.fitBounds(bounds);
-        	    map.setZoom(map.getZoom()+1);
         	    var marker = new google.maps.Marker({
                   position: path[0], 
                   map: map,
