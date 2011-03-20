@@ -7,7 +7,7 @@
     <h3 class="hospitalName"><%= hospital[:name] %></h3>
     <p class="distance">- / -</p>
     <a target="_blank" href="#">
-    <img id="hospital_<%= hospital[:cartodb_id] %>" class="map" src="http://maps.google.com/maps/api/staticmap?center=<%= hospital[:address] %>&zoom=8&size=240x150&sensor=false" />
+    <div style="display:inline-block; margin:10px 0 0 0; width:243px;height:150px;border:1px solid #CCCCCC;" id="hospital_<%= hospital[:cartodb_id] %>"></div>
     </a>
     <a class="phoneButton" href="tel:<%= hospital[:emergency_contact] %>"><span class="phone"><%= hospital[:emergency_contact] %><span></a>
     <div class="address">
