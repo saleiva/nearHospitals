@@ -5,6 +5,7 @@ gem 'rails', '3.0.5'
 
 gem 'nokogiri'
 gem 'cartodb-rb-client', :git => 'git@github.com:Vizzuality/cartodb-rb-client.git'
+gem 'json'
 
 group :development do
   gem 'rspec'
