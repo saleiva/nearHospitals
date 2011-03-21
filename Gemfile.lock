@@ -1,10 +1,11 @@
 GIT
   remote: git@github.com:Vizzuality/cartodb-rb-client.git
-  revision: 1baad1429aa2aee3715277fd3f7680bf9a48397e
+  revision: e0af4876d38e95de7388cace111e04087f66188e
   specs:
     cartodb-rb-client (0.0.1)
       activesupport (= 3.0.5)
       i18n (= 0.5.0)
+      json (= 1.5.1)
       mime-types (= 1.16)
       omniauth (= 0.1.6)
       rails_warden (= 0.5.2)
@@ -48,8 +49,8 @@ GEM
     capistrano (2.5.20)
       highline
       highline
-      net-scp
       net-scp (>= 1.0.0)
+      net-scp
       net-sftp
       net-sftp (>= 2.0.0)
       net-ssh (>= 2.0.14)
