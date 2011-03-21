@@ -1,6 +1,5 @@
 .bundle
 db/*.sqlite3
+config/cartodb_config.yml
 log/*.log
 tmp/
-
-config/cartodb_config.yml

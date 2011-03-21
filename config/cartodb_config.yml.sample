@@ -1,0 +1,17 @@
+development:
+  host: 'http://api.localhost.lan:3000'
+  oauth_key: ''
+  oauth_secret: ''
+  api_key: ''
+
+test:
+  host: 'http://api.localhost.lan:3000'
+  oauth_key: ''
+  oauth_secret: ''
+  api_key: ''
+
+production:
+  host: 'http://api.localhost.lan:3000'
+  oauth_key: ''
+  oauth_secret: ''
+  api_key: ''
